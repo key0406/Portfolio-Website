@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style> 
+    .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: black;
+  color: #fff;
+}
+    .hover-fade a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      background-color: #333;
+    }
+    .icon:hover img {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+      filter: alpha(opacity=0.5);
+      opacity: 0.5;
+    }
+
+  </style> 
+    <title >Koki Portfolio</title>
+  </head>
+  <body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-image: url('Image/background.png'); font-family:'Times New Roman', Times, serif">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#" >
+          <img src="Image\icon.png" alt="" width="50" height="50" style="border-radius: 50%;">
+        </a>
+        <a class="navbar-brand text-white" href="index.html" style="font-family:'Times New Roman', Times, serif">Koki Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link me-6 mask" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6" href="#exp">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6" href="#pro" >Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-6" href="#con" >Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!--Main pic-->
+<div class="mainpic"
+  style="
+    background-image: url('Image/mainpic.png');
+    background-repeat: no-repeat center center fixed;
+    background-size: 100% auto;
+    
+  ">
+  
+  <h3 style=" color: white;
+  margin: 0;
+  padding: 20px; font-family:'Times New Roman', Times, serif">I am.... </h3>
+  <h1 style=" color: white;
+  margin: 0; padding: 20px; font-family:'Times New Roman', Times, serif">Koki Ohira</h1>
+  <h1 style=" color: white;
+  margin: 0;  padding: 20px; font-family:'Times New Roman', Times, serif; font-size: 8vw;">Full Stack Developer</h1>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active icon"  aria-current="page" href="mailto: ohirakoki@gmail.com" ><img src ="Image\gmail.png " alt="" width="50vw" height="50vh" ></a>
+    </li>
+      <a class="nav-link icon" href="https://www.linkedin.com/in/ohira-koki"><img src ="Image\linkedin.png" alt="" width="50vw" height="50vh"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link icon" href="https://github.com/Key0115"><img src ="Image\github.png" alt="" width="50vw" height="50vh"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link icon" href="files\Koki Ohira CV.pdf" download><img src ="Image\cv.png" alt="" width="50vw" height="50vh"></a>
+    </li>
+  </ul>
+</div>
+<!--About-->
+<div class="About" id="about" style="background-image: url('Image/background.png'); padding-top: 10%;">
+ <h1 style="position:relative; text-align: center; color: #fff; font-family:'Times New Roman', Times, serif;  text-decoration: underline;">About me</h1> 
+<div class="card mb-3" style="background-image: url('Image/background.png');">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="Image\Profile pic.jpg" class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-text text-white"  style="font-family:'Times New Roman', Times, serif">I am BSc Computer Science student, studying at Kingston University. I am a highly motivated and enthusiastic student, who would like to engage further in the future. Moreover, I am keen on developing my knowledge by taking a placement year in software engineering, where I can contribute to increase technological development. I am eager to learn new fields. For example, I have learnt programming, languages, tennis, music and art.</h4>
+        <a href="files\Koki Ohira CV.pdf" class="btn btn-outline-light btn-lg rounded-pill" style=" width:50%">CV</a>  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Work experience-->
+<h1 id="exp" style="position:relative; text-align: center; text-decoration: underline; color: #fff; font-family:'Times New Roman', Times, serif; padding-top: 150px;">Experience</h1> 
+<div class="row row-cols-1 row-cols-md-3" style="background-image: url('Image/background.png'); font-family:'Times New Roman', Times, serif;">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="Image\backend.png" style="height: 32vh" class="card-img-top" alt="...">
+      <div class="card-body" style="background-image: url('Image/paper.png');">
+        <h5 class="card-title">Backend</h5>
+        <img src="Image\java_logo.png" class="img-fluid rounded-circle" alt="..." style=" height: 8vh;">
+        <img src="Image\python-logo.png" class="img-fluid rounded-circle" alt="..." style="height: 15vh;">
+        <img src="Image\javascript.png" class="img-fluid" alt="..." style="height: 8vh; padding-right: 10px;">
+        <img src="Image\Csharp.png" class="img-fluid" alt="..." style=" height: 8vh; margin-left: 30px;">
+        <img src="Image\mySQL-logo.png" class="img-fluid" alt="..." style="height: 8vh; padding-right: 20px;"> 
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100" >
+      <img src="Image\frontend.png" class="card-img-top" alt="...">
+      <div class="card-body" style="background-image: url('Image/paper.png');">
+        <h5 class="card-title">Frontend</h5>
+        <img src="Image\HTML5_logo.png" class="img-fluid" alt="..." style=" height: 10vh;">
+        <img src="Image\CSS.png" class="img-fluid" alt="..." style="height: 12vh ;">
+        <img src="Image\Bootstrap_logo.png" class="img-fluid" alt="..." style=" height: 10vh;">
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4" >
+    <div class="card h-100" >
+      <img src="Image\Ui-Ux.png" class="card-img-top" alt="...">
+      <div class="card-body" style="background-image: url('Image/paper.png'); " >
+        <h5 class="card-title">UI&UX design</h5>
+        <img src="Image\figma.png" class="img-fluid " alt="..." style=" height: 10vh;">   
+        </div>
+    </div>
+  </div>
+</div>
+<!--projects-->
+<h1 id="pro" style="position:relative; text-align: center; text-decoration: underline; color: #fff; font-family:'Times New Roman', Times, serif; padding-top: 150px;">Projects</h1>
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100" style=" background-image: url('Image/paper.png');">
+      <img src="videos\endgame.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Endgame</h5>
+        <p class="card-text">I coded the 3 card games as a final project for the first year of the computer science course in Kingston University London.
+           We programmed pick up 5 cards, High and Low and Black Jack by using the encapsulation and ArrayList in Java</p>
+           <a href="https://github.com/Key0115/End-Game-Projects" class="btn btn-outline-dark">Check it out!</a> 
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100" style=" background-image: url('Image/paper.png');">
+      <img src="videos\pokeAnimation.png" style="height:30vh" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Java Spring Pokemon Animation</h5>
+        <p class="card-text">I designed the animation of the Pokemon is moving around the grass by using Java Swing. 
+          I used the J frame and changing the screen by using the action Listener functions with conditions. I also implemented the image file to each class.</p>
+          <a href="https://github.com/Key0115/JavaSwingAnimationProject" class="btn btn-outline-dark">Check it out!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100" style=" background-image: url('Image/paper.png');">
+      <img src="videos\webapp.png" style="height:30vh"class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Java Spring web application</h5>
+        <p class="card-text">I implemented the Java and SQL database by using Java Spring and MySQL to make the website to the web application.  Firstly, I implemented my HTML files of the website and the image pack files. 
+          Then, I made the website to the web application by connecting each HTML files to the corresponded controller class. For instance, the controller of the booking files is booking controller.
+           Afterwards, I implemented the SQL database by connecting the database with the compiler. I use the 3nf normalised data to avoid any confusion or data lost</p>
+           <a href="https://github.com/smartay-edu/hotel" class="btn btn-outline-dark">Check it out!</a> 
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!--Contact-->
+<form class="row text-white" id="con" action="https://formsubmit.co/ohirakoki@gmail.com" method="POST" style="background-image: url('Image/background.png'); font-family:'Times New Roman', Times, serif; padding-top: 10%;">
+  <!--Disable captcha-->
+  <input type ="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="http://portfolio.key0115.com/success.html">
+    <div class="col-12">
+        <h1 style="position:relative; text-align: center; text-decoration: underline">Contact Me!</h1> 
+        <h1 class="text-start" style="padding-left: 20px;">Feel free to contact me!</h1>
+        <h4 class="text-start" style="padding-left: 50px;"><img src="Image\telephone-fill.svg" style="padding-right:10px;">+44 7427 268306 </h4>
+        <h4 class="text-start" style="padding-left: 50px;"><img src="Image\envelope.svg" style="padding-right:10px;">Email: ohirakoki@gmail.com</h4>
+        <h4 class="text-start" style="padding-left: 50px;"><img src="Image\geo-alt-fill.svg" style="padding-right:10px;">Location: Kingston Upon Thames, London</h4>
+    </div>
+    <div class="col-4" style="max-width: 40%; min-width: 30%; margin-left: 10px;">
+        <label for="exampleFormControlInput1" class="form-label">Firstname</label>
+        <input type="text" class="form-control"  name= "FirstName" id="Firstname" required>
+      </div>
+    <div class="col-4" style="max-width: 40%; margin-left: 10px;">
+        <label for="exampleFormControlInput1" class="form-label">Lastname</label>
+        <input type= "text" class="form-control" name="LastName" id="Lastname" required>
+    </div>
+  <div class="col-4" style="max-width: 50%; min-width:50%; margin-left: 10px;">
+    <label for="exampleFormControlInput1" class="form-label">Email</label>
+    <input type="email" class="form-control" name="Email" id="email address" placeholder="name@example.com" required>
+  </div>
+  <div class="col-sm-6" style="margin-left: 10px; max-width: 80%;">
+    <label for="comments" class="form-label">Write any comments or questions</label>
+    <textarea class="form-control" id="comments" name="comments,questions" rows="5" placeholder="writing....." required></textarea>
+
+    <div class="col-md-12" style="margin-top: 20px;">
+      <button type="submit" class="btn btn-outline-light">Submit</button>
+    </div>
+  </div>  
+</form>
+
+  
+      </div>
+</div>
+</div>
+<!--copy writing-->
+<div class="row"style="background-image: url('Image/background.png')" >
+  <ul class="nav d-flex justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active icon"  aria-current="page" href="mailto: ohirakoki@gmail.com" ><img src ="Image\gmail.png " alt="" width="50vw" height="50vh"></a>
+    </li>
+      <a class="nav-link icon" href="https://www.linkedin.com/in/ohira-koki"><img src ="Image\linkedin.png" alt="" width="50vw" height="50vh"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link icon" href="https://github.com/Key0115"><img src ="Image\github.png" alt="" width="50vw" height="50vh"></a>
+    </li>
+  </ul>
+  <h2 class="text-center text-white" style="font-family:'Times New Roman', Times, serif">copy writing © 2023.All rights are reserved.</h2>
+</div>
+</div>
+  
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
